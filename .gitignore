@@ -1,0 +1,32 @@
+# Hassas / büyük / geçici — git'e girmesin
+history.jsonl
+projects/
+sessions/
+session-env/
+debug/
+cache/
+file-history/
+paste-cache/
+mcp-needs-auth-cache.json
+ide/
+backups/
+shell-snapshots/
+chrome/
+get-shit-done/
+
+# Marketplace kurulumları — portable değil, her makinede ayrı kurulur
+plugins/
+
+# Skills içindeki marketplace plugin'leri (embedded git repo)
+skills/claude-prompts/
+skills/prompt-master/
+
+# Local'e özel settings
+settings.local.json
+
+# Mac
+.DS_Store
+
+# Geçici
+*.log
+*.tmp

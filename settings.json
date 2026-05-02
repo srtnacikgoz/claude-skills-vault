@@ -1,0 +1,56 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Edit(~/.claude/skills/kusursuz-kod/**)",
+      "Edit(~/.claude/skills/poster-analiz/**)",
+      "Bash(git log:*)",
+      "Bash(git branch *)",
+      "Read(//Users/sertanacikgoz/.claude/**)",
+      "Read(//Users/sertanacikgoz/.claude/plugins/**)",
+      "Bash(git pull *)",
+      "Bash(claude --version)",
+      "Bash(npm show *)",
+      "Bash(git checkout *)",
+      "Bash(git push *)",
+      "WebSearch",
+      "Read(//Users/sertanacikgoz/Developer/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(git rev-list *)",
+      "Bash(echo \"main'e göre ahead/behind: $\\(git rev-list --left-right --count main...origin/main 2>/dev/null\\) \\(sol=local, sağ=origin\\)\")",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(python3 -c \"import sys,json; [print\\(f['name']\\) for f in json.load\\(sys.stdin\\)]\")",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Read(//tmp/**)",
+      "Edit(~/.claude/skills/sade-yeni-proje/**)",
+      "Bash(git ls-remote *)"
+    ],
+    "additionalDirectories": [
+      "/Users/sertanacikgoz/.claude/skills",
+      "/Users/sertanacikgoz/Developer/benim-super-uygulamam",
+      "/Users/sertanacikgoz/Developer/benim-super-uygulamam/.claude/skills",
+      "/Users/sertanacikgoz/.claude/skills/kusursuz-kod",
+      "/Users/sertanacikgoz/.claude/commands/gsd",
+      "/Users/sertanacikgoz/Developer/benim-super-uygulamam/.claude",
+      "/Users/sertanacikgoz/.claude"
+    ]
+  },
+  "model": "sonnet",
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/sertanacikgoz/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "remoteControlAtStartup": true,
+  "agentPushNotifEnabled": false
+}
